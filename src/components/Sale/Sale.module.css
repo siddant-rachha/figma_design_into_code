@@ -46,6 +46,11 @@
 
     padding: 14px 36px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.2);
 }
 
 @media (max-width: 850px) {

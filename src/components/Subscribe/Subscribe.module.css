@@ -86,6 +86,10 @@
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     padding: 20px;
+    transition: transform 0.3s ease;
+}
+.button:hover {
+    transform: scale(1.05);
 }
 
 

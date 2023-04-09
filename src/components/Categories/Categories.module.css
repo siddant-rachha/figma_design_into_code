@@ -21,6 +21,11 @@
 }
 
 .sections img {
+    transition: transform 0.3s ease;
+}
+
+.sections img:hover {
+    transform: scale(1.05);
 }
 
 .section1 {

@@ -44,4 +44,9 @@
 
 .nav span {
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav span:hover {
+    transform: scale(1.2);
 }

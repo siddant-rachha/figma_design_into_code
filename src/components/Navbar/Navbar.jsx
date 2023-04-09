@@ -20,13 +20,13 @@ const Navbar = () => {
                         Welcome to Our Store Hiscraves
                     </div>
                     <div className={classes.section2}>
-                        <span style={{margin: "0 11px"}}><img src={call}></img></span>
+                        <span style={{ margin: "0 11px" }}><img src={call}></img></span>
                         <span>Call Us: 1234567890</span>
                     </div>
                 </div>
 
                 <div className={classes.nav}>
-                    <div><span><img src={menu}></img></span></div>
+                    <span><img src={menu}></img></span>
                     <div>Logo Here</div>
                     <div className={classes.list}>
                         <span><img src={search}></img></span>
