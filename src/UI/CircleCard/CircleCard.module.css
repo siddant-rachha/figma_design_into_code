@@ -1,0 +1,16 @@
+.category {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.category img {
+    height: 170px;
+    width: 170px;
+}
+
+.category .title {
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    height: 48px;
+    margin-bottom: 48px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.line {
+    border: 1px solid #FFC7D1;
+    width: 380px;
+    height: 0px;
+}

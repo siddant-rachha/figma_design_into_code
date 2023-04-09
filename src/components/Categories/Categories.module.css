@@ -1,0 +1,50 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.banners .sections {
+    width: 100%;
+}
+
+.sections img {
+}
+
+.section1 {
+    display: flex;
+}
+
+.section1 img {
+    width: 50%;
+}
+
+.section2 {
+    display: flex;
+
+}
+
+.section2 img {
+    width: 33.3%;
+}
+
+@media (max-width: 600px) {
+    .section2 img, .section1 img {
+        width: 100%;
+    }
+    .section2, .section1 {
+        flex-wrap: wrap;
+    }
+}

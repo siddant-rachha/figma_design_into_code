@@ -1,0 +1,43 @@
+.navbar {
+    font-weight: 500;
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    z-index: 1;
+}
+
+.annoucement {
+    color: #FFFFFF;
+    background: #1F1F1F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+}
+
+.annoucement .section2 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.nav {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
+    font-size: 16px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.16);
+}
+
+.nav .list {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}

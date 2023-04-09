@@ -1,0 +1,16 @@
+.button {
+    width: 170px;
+    height: 48px;
+    background: #770015;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

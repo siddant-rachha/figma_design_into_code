@@ -1,0 +1,11 @@
+.container {
+    max-width: 1120px;
+    margin: auto;
+    margin-top: 68px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
