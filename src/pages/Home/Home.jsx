@@ -17,6 +17,7 @@ import banner2 from '../../assets/images/banner2.png'
 
 //data
 import { categorybanner, catergories, productTypes, products } from '../../data/data'
+import Subscibe from '../../components/Subscribe/Subscibe'
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <Image src={banner2} />
       <Sale />
       <Services />
+      <Subscibe />
       <Footer />
 
     </>
