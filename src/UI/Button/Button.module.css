@@ -6,6 +6,8 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .button span {
@@ -13,4 +15,8 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.button:hover {
+    transform: scale(1.2);
 }

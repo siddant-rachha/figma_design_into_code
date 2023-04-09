@@ -12,6 +12,10 @@ const ProductCard = ({img, title, price, size=[], priceSlashed}) => {
                     return <div key={index}>{s}</div>
                 })}
             </div>
+            <div className={classes.cardOverlay}>
+                
+            </div>
+
         </div>
     )
 }

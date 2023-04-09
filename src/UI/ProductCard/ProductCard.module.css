@@ -6,6 +6,8 @@
     width: 264px;
     margin: 5px;
     margin-bottom: 48px;
+    position: relative;
+    cursor: pointer;
 }
 
 .card div {
@@ -43,6 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .card .price {
@@ -66,4 +70,19 @@
     font-weight: 400;
     text-decoration-line: line-through;
     color: #FF0000;
+}
+
+.cardOverlay {
+    opacity: 0;
+    position: absolute;
+    width: 264px;
+    height: 412px;
+    background: rgba(31, 31, 31, 0.3);
+    backdrop-filter: blur(5px);
+    transition: opacity 0.3s ease;
+}
+
+
+.card:hover  .cardOverlay {
+    opacity: 1;
 }

@@ -41,3 +41,7 @@
     width: 200px;
     justify-content: space-between;
 }
+
+.nav span {
+    cursor: pointer;
+}

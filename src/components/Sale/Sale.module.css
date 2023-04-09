@@ -45,6 +45,7 @@
     border: 1px solid #FFFFFF;
 
     padding: 14px 36px;
+    cursor: pointer;
 }
 
 @media (max-width: 850px) {

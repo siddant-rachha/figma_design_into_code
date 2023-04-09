@@ -29,10 +29,12 @@
 
 .section1 img {
     width: 50%;
+    cursor: pointer;
 }
 
 .section2 {
     display: flex;
+    cursor: pointer;
 
 }
 
