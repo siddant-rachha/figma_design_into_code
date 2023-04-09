@@ -5,6 +5,7 @@ import Image from '../../components/Image/Image'
 import Categories from '../../components/Categories/Categories'
 import Products from '../../components/Products/Products'
 import Footer from '../../components/Footer/Footer'
+import ProductTypes from '../../components/ProductTypes/ProductTypes'
 import Services from '../../components/Services/Services'
 
 //images
@@ -15,7 +16,6 @@ import banner2 from '../../assets/images/banner2.png'
 
 //data
 import { categorybanner, catergories, productTypes, products } from '../../data/data'
-import ProductTypes from '../../components/ProductTypes/ProductTypes'
 
 const Home = () => {
   return (
@@ -29,9 +29,9 @@ const Home = () => {
       <Products products={products} title="Best Selling Products" />
       <ProductTypes productTypes={productTypes} />
       <Image src={banner2} />
+      <Services />
       <Footer />
 
-      {/* <Services /> */}
     </>
   )
 }
