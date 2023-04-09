@@ -7,6 +7,7 @@ import Products from '../../components/Products/Products'
 import Footer from '../../components/Footer/Footer'
 import ProductTypes from '../../components/ProductTypes/ProductTypes'
 import Services from '../../components/Services/Services'
+import Sale from '../../components/Sale/Sale'
 
 //images
 import hero from '../../assets/images/hero.png'
@@ -29,6 +30,7 @@ const Home = () => {
       <Products products={products} title="Best Selling Products" />
       <ProductTypes productTypes={productTypes} />
       <Image src={banner2} />
+      <Sale />
       <Services />
       <Footer />
 
