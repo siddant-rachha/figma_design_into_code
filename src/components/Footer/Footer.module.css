@@ -12,6 +12,7 @@
     margin: auto;
 
     display: flex;
+    align-items: flex-start
 }
 
 .section1 .part1 {
