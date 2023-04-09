@@ -96,11 +96,22 @@
     background: rgba(31, 31, 31, 0.3);
     backdrop-filter: blur(5px);
     transition: opacity 0.3s ease;
-}
-
-.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image:hover  .imageOverlay {
     opacity: 1;
+}
+
+.imageOverlay img {
+    height: 55px;
+    width: 55px;
+    margin: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imageOverlay img:hover {
+    transform: scale(1.2);
 }

@@ -33,12 +33,12 @@
 
 .circle1 {
     left: -106px;
-    top: -106px
+    bottom: -106px
 }
 
 .circle2 {
     right: -106px;
-    bottom: -106px;
+    top: -106px;
 }
 
 @media (max-width: 600px) {
