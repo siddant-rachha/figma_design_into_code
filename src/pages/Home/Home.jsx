@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Image from '../../components/Image/Image'
 import Categories from '../../components/Categories/Categories'
 import Products from '../../components/Products/Products'
+import Footer from '../../components/Footer/Footer'
 import Services from '../../components/Services/Services'
 
 //images
@@ -20,17 +21,17 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Image style={{marginTop:"136px"}} src={hero} />
-      <Categories data={catergories} banner={categorybanner}/>
+      <Image style={{ marginTop: "136px" }} src={hero} />
+      <Categories data={catergories} banner={categorybanner} />
       <Products products={products.concat(products)} title="Trending T-Shirts" />
       <Image src={banner1} />
       <Products products={products} title="New Products" />
       <Products products={products} title="Best Selling Products" />
       <ProductTypes productTypes={productTypes} />
       <Image src={banner2} />
+      <Footer />
 
       {/* <Services /> */}
-      <div style={{height:"500px"}}></div>
     </>
   )
 }
