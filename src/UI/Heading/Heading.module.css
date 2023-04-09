@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    white-space: nowrap;
     height: 48px;
     margin-bottom: 48px;
     font-family: Playfair Display;
@@ -16,6 +15,6 @@
 
 .line {
     border: 1px solid #FFC7D1;
-    width: 380px;
+    max-width: 380px;
     height: 0px;
 }

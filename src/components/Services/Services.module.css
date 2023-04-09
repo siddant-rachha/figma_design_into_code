@@ -57,11 +57,11 @@
 
     .circle1 {
         left: -56px;
-        top: -56px
+        bottom: -56px
     }
     
     .circle2 {
         right: -56px;
-        bottom: -56px;
+        top: -56px;
     }
 }
