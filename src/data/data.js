@@ -21,6 +21,15 @@ import product2 from '../assets/images/products/Rectangle 4.png'
 import product3 from '../assets/images/products/Rectangle 5.png'
 import product4 from '../assets/images/products/Rectangle 6.png'
 
+//product types
+
+import productType1 from '../assets/images/productTypes/Rectangle 18.png'
+import productType2 from '../assets/images/productTypes/Rectangle 19.png'
+import productType3 from '../assets/images/productTypes/Rectangle 20.png'
+import productType4 from '../assets/images/productTypes/Rectangle 21.png'
+import productType5 from '../assets/images/productTypes/Rectangle 22.png'
+import productType6 from '../assets/images/productTypes/Rectangle 23.png'
+
 
 export const catergories = [
     {
@@ -117,6 +126,39 @@ export const products = [
         price: 399,
         priceSlashed: 1299,
         size : ["S","M","L","XL","XXL"]
+    }
+]
+
+export const productTypes = [
+    {
+        id:1,
+        img: productType1,
+        title: "Streetwear Collections"
+    },
+    {
+        id:2,
+        img: productType2,
+        title: "Striped T-Shirts"
+    },
+    {
+        id:3,
+        img: productType3,
+        title: "Round Neck T-Shirts"
+    },
+    {
+        id:4,
+        img: productType4,
+        title: "Printed T-Shirts"
+    },
+    {
+        id:5,
+        img: productType5,
+        title: "Oversized T-Shirts"
+    },
+    {
+        id:6,
+        img: productType6,
+        title: "Half Sleeves T-Shirts"
     }
 ]
 

@@ -3,7 +3,7 @@ import classes from './Products.module.css'
 
 //ui
 import Heading from '../../UI/Heading/Heading'
-import Card from '../../UI/Card/Card'
+import ProductCard from '../../UI/ProductCard/ProductCard'
 import Button from '../../UI/Button/Button'
 
 const Products = ({ products, title }) => {
@@ -15,9 +15,9 @@ const Products = ({ products, title }) => {
 
                 <div className={classes.products}>
                     {
-                        products.map((p) => {
+                        products.map((p, index) => {
                             return (
-                                <Card key={p.id} title={p.title} img={p.img} size={p.size} price={p.price} priceSlashed={p.priceSlashed} />
+                                <ProductCard key={index} title={p.title} img={p.img} size={p.size} price={p.price} priceSlashed={p.priceSlashed} />
                             )
                         })
                     }
