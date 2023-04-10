@@ -22,12 +22,18 @@ import Subscibe from '../../components/Subscribe/Subscibe'
 const Home = () => {
 
   const [productData, setProductData] = useState(undefined);
+  const [categoriesData, setCategoriesData] = useState(undefined);
+
 
   useEffect(() => {
 
     setTimeout(() => {
       setProductData(products)
-    }, 5000);
+    }, 6000);
+
+    setTimeout(() => {
+      setCategoriesData(catergories)
+    }, 3000);
 
   }, [])
 
@@ -35,7 +41,7 @@ const Home = () => {
     <>
       <Navbar />
       <Image style={{ marginTop: "136px" }} src={hero} />
-      <Categories data={catergories} banner={categorybanner} />
+      <Categories data={categoriesData}  banner={categorybanner} />
       <Products products={productData?.concat(productData)} title="Trending T-Shirts" />
       <Image src={banner1} />
       <Products products={productData} title="New Products" />

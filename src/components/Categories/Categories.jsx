@@ -10,13 +10,29 @@ const Categories = ({ data, banner }) => {
 
     return (
         <>
-            <div className={classes.categories}>
-                {data.map((d) => {
-                    return (
-                        <CircleCard src={d.img} key={d.id} title={d.title} />
-                    )
-                })}
-            </div>
+
+            {data == undefined ?
+                <div className={classes.categories}>
+
+                    <CircleCard lazy={true} />
+                    <CircleCard lazy={true} />
+                    <CircleCard lazy={true} />
+                    <CircleCard lazy={true} />
+                    <CircleCard lazy={true} />
+                    <CircleCard lazy={true} />
+
+                </div>
+
+                :
+
+                <div className={classes.categories}>
+                    {data.map((d) => {
+                        return (
+                            <CircleCard src={d.img} key={d.id} title={d.title} />
+                        )
+                    })}
+                </div>
+            }
 
             <div className={classes.banners}>
                 <div className={classes.sections}>
