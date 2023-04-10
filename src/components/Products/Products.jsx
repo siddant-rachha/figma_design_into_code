@@ -9,23 +9,39 @@ import Button from '../../UI/Button/Button'
 const Products = ({ products, title }) => {
     return (
         <>
-            <div className={classes.container}>
+            {products == undefined ?
+                <div className={classes.container}>
+                    <Heading title={title} />
+                    <div className={classes.products}>
 
-                <Heading title={title} />
+                        <ProductCard lazy={true} />
+                        <ProductCard lazy={true} />
+                        <ProductCard lazy={true} />
+                        <ProductCard lazy={true} />
 
-                <div className={classes.products}>
-                    {
-                        products.map((p, index) => {
-                            return (
-                                <ProductCard key={index} title={p.title} img={p.img} size={p.size} price={p.price} priceSlashed={p.priceSlashed} />
-                            )
-                        })
-                    }
+                    </div>
                 </div>
 
-                <Button title="View All" style={{margin:"auto"}} />
+                :
 
-            </div>
+                <div className={classes.container}>
+
+                    <Heading title={title} />
+
+                    <div className={classes.products}>
+                        {
+                            products.map((p, index) => {
+                                return (
+                                    <ProductCard key={index} title={p.title} img={p.img} size={p.size} price={p.price} priceSlashed={p.priceSlashed} />
+                                )
+                            })
+                        }
+                    </div>
+
+                    <Button title="View All" style={{ margin: "auto" }} />
+
+                </div>
+            }
         </>
     )
 }

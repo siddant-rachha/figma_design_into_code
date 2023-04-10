@@ -115,3 +115,47 @@
 .imageOverlay img:hover {
     transform: scale(1.2);
 }
+
+
+
+/* lazy */
+
+.imageLazy {
+    width: 264px;
+    height: 412px;
+    opacity: 0.5;
+    animation: imageLoading 1s linear infinite alternate;
+}
+
+@keyframes imageLoading {
+    0% {
+        background-color: gray;
+    }
+
+    100% {
+        background-color: whitesmoke;
+    }
+}
+
+.titleLazy {
+    width: 264px;
+    height: 5px;
+    border-radius: 10px;
+    opacity: 0.5;
+    animation: titleLoading 1s linear infinite alternate;
+}
+
+.titleLazy:nth-last-child(1) {
+    width: 75%;
+    margin-right: auto;
+}
+
+@keyframes titleLoading {
+    0% {
+        background-color: gray;
+    }
+
+    100% {
+        background-color: whitesmoke;
+    }
+}
