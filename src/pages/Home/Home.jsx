@@ -27,7 +27,7 @@ const Home = () => {
 
     setTimeout(() => {
       setProductData(products)
-    }, 3000);
+    }, 5000);
 
   }, [])
 
