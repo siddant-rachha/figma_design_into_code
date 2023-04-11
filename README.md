@@ -12,6 +12,8 @@
 * Responsive design
 * Seperated file structure
 
+###### Note: This design/source code only contains the view of only Home page, and doesn't includes functionality 
+
 #### Design image
 ![design image](https://github.com/siddant-rachha/figma_design_into_code/blob/master/design.png)
 
